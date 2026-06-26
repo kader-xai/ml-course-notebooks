@@ -20,6 +20,3 @@ Click a badge to launch the notebook in Colab — no setup, runs in the browser.
 - **Optimization**: each `OP##` section is the video's Act-2 walkthrough — the real computation behind that episode's figure. Most are self-contained NumPy demos; OP16/OP18 use PyTorch and are faithful skeletons. Run the install cell first.
 - **XGBoost for Cyber Defense**: every `SEC##` section was executed and its printed output captured verbatim — the code reproduces the real metrics/figures. Seeded in-code security datasets (no downloads); security-honest metrics (PR-AUC, precision, recall, FPR @ threshold). Run the install cell, then any section top-to-bottom. Episode thumbnails: [`thumbnails/xgboost_security/`](thumbnails/xgboost_security/).
 
-## Music
-
-All course videos use **"Reflections" by Vincent Rubinetti**, from *The Music of 3Blue1Brown* (2018) — https://vincerubinetti.bandcamp.com

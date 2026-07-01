@@ -10,6 +10,7 @@ Runnable Google Colab notebooks accompanying my video courses.
 | **Hugging Face, Hands-On** — `pipeline()` → fine-tune → quantize → ship | 20 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kader-xai/ml-course-notebooks/blob/main/hugging_face_course.ipynb) |
 | **How Neural Networks Actually Learn** — gradients → Adam → schedules → BatchNorm | 18 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kader-xai/ml-course-notebooks/blob/main/optimization_course.ipynb) |
 | **XGBoost for Cyber Defense** — phishing · malware · IDS · DLP · UEBA · SHAP · SOC | 18 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kader-xai/ml-course-notebooks/blob/main/xgboost_security_course.ipynb) |
+| **Data Cleaning & Feature Engineering** — raw Telco table → model-ready pipeline | 14 code eps | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kader-xai/ml-course-notebooks/blob/main/data_cleaning_course.ipynb) |
 
 Click a badge to launch the notebook in Colab — no setup, runs in the browser.
 
@@ -19,4 +20,5 @@ Click a badge to launch the notebook in Colab — no setup, runs in the browser.
 - **Hugging Face**: each `HF##` section is self-contained — run its `pip install` cell, then the cells below. Quantization (HF09) and Diffusers (HF15) want a GPU runtime (*Runtime → Change runtime type → GPU*).
 - **Optimization**: each `OP##` section is the video's Act-2 walkthrough — the real computation behind that episode's figure. Most are self-contained NumPy demos; OP16/OP18 use PyTorch and are faithful skeletons. Run the install cell first.
 - **XGBoost for Cyber Defense**: every `SEC##` section was executed and its printed output captured verbatim — the code reproduces the real metrics/figures. Seeded in-code security datasets (no downloads); security-honest metrics (PR-AUC, precision, recall, FPR @ threshold). Run the install cell, then any section top-to-bottom.
+- **Data Cleaning & Feature Engineering**: 14 of the 24 video episodes' real scripts on the Telco Customer Churn dataset (`telco_churn.csv`, committed alongside the notebook — no download needed). Every cell fits the course's ML-hygiene spine: split before cleaning, fit only on train, transform test with what train learned.
 
